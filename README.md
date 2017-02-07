@@ -1,6 +1,3 @@
-# VoiceControl
-Voice control using Unity for CMPUT 414   
+# Unity Learning   
 
-Reference tutorial from:   
-https://www.youtube.com/watch?v=Ok_3klyGueI&t=31s    
-https://www.youtube.com/watch?v=HwT6QyOA80E   
+Simple application from web tutorials 
