@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cube.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VoiceRecognition.cs">
     <Files>
-      <File FileName="Assets/Recognition.cs" Line="35" Column="22" />
-      <File FileName="Assets/Cube.cs" Line="46" Column="9" />
+      <File FileName="Assets/Scripts/KeywordScript.cs" Line="53" Column="3" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/VoiceRecognition.cs" Line="48" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
