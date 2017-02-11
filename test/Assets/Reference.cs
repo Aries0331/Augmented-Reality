@@ -62,7 +62,7 @@ public class Reference : MonoBehaviour {
 
 			// Save the audio file
 			Microphone.End(null);
-			//SavWav.Save("sample", commandClip);
+			SavWav.Save("sample", commandClip);
 
 			// At this point, we can delete the existing audio clip
 			commandClip = null;
