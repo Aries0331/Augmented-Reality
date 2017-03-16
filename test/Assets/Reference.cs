@@ -69,7 +69,7 @@ public class Reference : MonoBehaviour {
 
 			//Grab the most up-to-date JSON file
 			// url = "https://api.wit.ai/message?v=20160305&q=Put%20the%20box%20on%20the%20shelf";
-			token = "NJP2HHQXIUK3IGW53WXL65NRD74GGJ5B";
+			token = "n64O52N4RU56OH235V4APMXZL4JDPJ33Q";
 
 			//Start a coroutine called "WaitForRequest" with that WWW variable passed in as an argument
 			string witAiResponse = GetJSONText("Assets/sample.wav");
