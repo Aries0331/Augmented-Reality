@@ -49,6 +49,11 @@ public class VRIntegrationHelper : MonoBehaviour
         mLeftExcessAreaBehaviour = mLeftCamera.GetComponent<HideExcessAreaAbstractBehaviour>();
         mRightExcessAreaBehaviour = mRightCamera.GetComponent<HideExcessAreaAbstractBehaviour>();
     }
+	/*
+	public void SetStereoProjectionMatrices(Matrix4x4 leftMatrix, Matrix4x4 rightMatrix)
+	{
+		
+	}*/
 
     void LateUpdate()
     {
