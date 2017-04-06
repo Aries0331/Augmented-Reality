@@ -7,20 +7,20 @@ public class FollowController : MonoBehaviour {
 	public GameObject TargetObj;
 	public float FollowSpeed; // 2.0 default
 
-	public GameObject detectDirectionObject;
-	private DetectDirection detectDirectionScript;
-	private Animator anim;
+	//public GameObject detectDirectionObject;
+	//private DetectDirection detectDirectionScript;
+	//private Animator anim;
 
 	// Use this for initialization
 	void Start () {
 		gameObject.GetComponentInChildren<Renderer>().enabled = false;
-		detectDirectionScript = detectDirectionObject.GetComponent<DetectDirection>();
-		anim = GetComponent<Animator>();
+		//detectDirectionScript = detectDirectionObject.GetComponent<DetectDirection>();
+		//anim = GetComponent<Animator>();
 	}
 
 	// Update is called once per frame
 	void Update () {
-
+		/*
 		//Play left/right animation
 		if (detectDirectionScript.Dir == "Left")
 		{
@@ -31,7 +31,7 @@ public class FollowController : MonoBehaviour {
 		{
 			anim.SetInteger("turn", 2);
 			StartCoroutine(PlayIdleAnimation());
-		}
+		}*/
 
 		//Draw line to target object
 		Debug.DrawLine(TargetObj.transform.position, StartObj.transform.position, Color.red);
@@ -45,13 +45,14 @@ public class FollowController : MonoBehaviour {
 		Vector3 targetDir = TargetObj.transform.position;
 		targetDir.y = 0;
 		float angle = Vector3.Angle(targetDir, startDir);
-		//Debug.Log(angle);
+		Debug.Log(angle);
 	}
 
+	/*
 	IEnumerator PlayIdleAnimation()
 	{
 		yield return new WaitForSeconds(1.1f);
 		detectDirectionScript.Dir = "";
 		anim.SetInteger("turn", 0);
-	}
+	}*/
 }
